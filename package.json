@@ -1,0 +1,16 @@
+{
+  "name": "fc2-ci-sonar",
+  "version": "1.0.0",
+  "description": "Project developed in order to learn concepts about CI process",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "Otávio Pinheiro",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^28.1.4",
+    "jest": "^28.1.2",
+    "sonar-scanner": "^3.1.0"
+  }
+}
