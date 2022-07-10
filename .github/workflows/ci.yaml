@@ -12,5 +12,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: 'npm'
-      - run: npm test
+      
+      - name: Instalando dependências
+        run: npm install
+      
+      - name: Executando os testes
+        run: npm test
